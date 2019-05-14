@@ -24,8 +24,3 @@ A = zsstree(list_of_lists_A)
 B = zsstree(list_of_lists_B)
 simple_distance(A, B)
 ```
-
-TODO
-----
-
-replace `src/loltree` with `loltree`; I now understand all the downsides
