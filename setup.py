@@ -1,4 +1,4 @@
-from setuptools import setup, find_packages
+from setuptools import setup
 
 install_requires = (
 )
@@ -9,8 +9,7 @@ setup(
     description='loltree',
     author='dmr',
     author_email='dradetsky@gmail.com',
-    packages=find_packages('src'),
-    package_dir={'': 'src'},
+    packages=['loltree']
     install_requires=install_requires,
     license='WTFPL',
 )
