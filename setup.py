@@ -9,7 +9,7 @@ setup(
     description='loltree',
     author='dmr',
     author_email='dradetsky@gmail.com',
-    packages=['loltree']
+    packages=['loltree'],
     install_requires=install_requires,
     license='WTFPL',
 )
