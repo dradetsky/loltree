@@ -1,6 +1,9 @@
 def loltree(lol, node_ctor, add_kid_fn):
     if not isinstance(lol, list):
         return node_ctor(lol)
+    elif len(lol) == 0:
+        tree = node_ctor(lol)
+        return tree
 
     head = lol[0]
     tail = lol[1:]
