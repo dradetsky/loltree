@@ -1,6 +1,12 @@
 from loltree import zsstree
 
 def test_example():
+    # XXX: TOKENIZATION FAIL
+    #
+    # the src lisp is (roughly)
+    #
+    # (unless (getf vom::*config* :woo.signal)
+    #   (vom:config :woo.signal :info))
     inp = ['start-multithread-server', [],
            ['unless', ['getf', 'vom::', '*config', '*', ':woo.signal'],
             ['vom:config', ':woo.signal', ':info']]]
