@@ -3,7 +3,7 @@ from loltree import zsstree
 def test_example():
     # XXX: TOKENIZATION FAIL
     #
-    # the src lisp is (roughly)
+    # the src lisp i got this example from is (roughly)
     #
     # (unless (getf vom::*config* :woo.signal)
     #   (vom:config :woo.signal :info))
